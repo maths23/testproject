@@ -6,6 +6,7 @@ package com.example.matthieu.testproject;
 public class Product {
 
     private int id;
+    private String name;
 
     public Product(int id) {
         this.id = id;
