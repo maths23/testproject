@@ -6,9 +6,11 @@ package com.example.matthieu.testproject;
 public class Product {
 
     private int id;
+    private int prix;
 
-    public Product(int id) {
+    public Product(int id, int prix) {
         this.id = id;
+        this.prix = prix;
     }
 
     public int getId() {
@@ -17,5 +19,13 @@ public class Product {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getPrix() {
+        return prix;
+    }
+
+    public void setPrix(int prix) {
+        this.prix = prix;
     }
 }
