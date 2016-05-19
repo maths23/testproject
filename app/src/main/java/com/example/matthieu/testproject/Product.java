@@ -7,10 +7,20 @@ public class Product {
 
     private int id;
     private int prix;
+    private String name;
+
 
     public Product(int id, int prix) {
         this.id = id;
         this.prix = prix;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getId() {
