@@ -8,6 +8,7 @@ public class Product {
     private int id;
     private int prix;
     private String name;
+    private String surname;
 
 
     public Product(int id, int prix) {
